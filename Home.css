@@ -47,7 +47,7 @@ a,li{
 }
 /*==================== hero-header ================*/
 .hero-header{
-    background: url(./image/Hero-bg.png);
+    background: url(Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -302,7 +302,7 @@ a:hover{
 }
 /*============= service Section =============*/
 .service-container{
-    background-image: url(./image/Service-bg.png);
+    background-image: url(Service-bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -407,7 +407,7 @@ a:hover{
 }
 /*============ assessment Section ============*/
 .assessment-item{
-    background-image: url(./image/bgw.png);
+    background-image: url(bgw.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -508,7 +508,7 @@ li{
 }
 .ready-btn{
     width: 366px;
-    background-image:url(./image/lets-bg.png);
+    background-image:url(lets-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -520,7 +520,7 @@ li{
 }
 .ready-btn2{
     width: 184px;
-    background-image:url(./image/Discount-bg.png);
+    background-image:url(Discount-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -627,7 +627,7 @@ li{
     }
     .ready-btn{
         width: 100%;
-        background-image:url(./image/lets-bg.png);
+        background-image:url(lets-bg.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
