@@ -367,6 +367,10 @@ a {
     border-radius: 20px;
     margin-bottom: 20px;
 }
+.about-box2:hover{
+    box-shadow: none;
+    background: linear-gradient(135deg, #AE7930 0%, #FEF189 52.5%, #AE7930 100%);
+}
 .about-head{
     font-size: 16px;
     font-family: "Cormorant Garamond", serif;
