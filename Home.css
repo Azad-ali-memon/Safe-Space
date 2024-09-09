@@ -31,162 +31,205 @@ a,li{
     color: var(--white);
     border-bottom: 1px solid var(--white);
 }
-.btn-nav{
+.nav-btn {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .5s;
     width: 127px;
     height: 36px;
+    padding: 6px 40px 6px 40px;
     border-radius: 50px;
-    border: 1px solid var(--Brown);
+    border: 1px solid #AE7930;
     background: none;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Lato", sans-serif;
-    color: var(--Brown);
+    color: #AE7930;
 }
-.her0-item2{
-    padding-left: 50px;
+.nav-btn:hover{
+    background: linear-gradient(135deg, #AE7930 0%, #FEF189 52.5%, #AE7930 100%);
+    border: none;
+    color: var(--Black);
 }
+
 /*==================== hero-header ================*/
-.hero-header{
-    background: url(Hero-bg.png);
-    background-position: center;
+.hero-header {
+    background: url(./image/Hero-bg.png);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.hero-head-btn h1{
-    font-size: 80px;
-    font-weight: 400;
-    font-family: "Cormorant Garamond", serif;
-    color: var(--white);
-    line-height: 88px;
-}
-.hero-head-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-}
-.hero-btn{
-    margin-top: 120px;
-}
-.Hero-item1-text{
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid var(--white);
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--white);
-}
-.Hero-item2-text{
-    width: 35%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid var(--white);
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--white);
+
+@media (min-width: 992px) {
+    .navbar-dark {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        background: transparent !important;
+    }
 }
 
-a:hover{
-    color: var(--white);
-}
-
-.hero-box{
-    width: 270px;
-    padding: 15px;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.288);
-}
-.hero-box p span{
+.Couns1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
     font-size: 16px;
     font-weight: 400;
+    color: white;
     font-family: "Lato", sans-serif;
-    color: var(--white);
+    width: 235px;
 }
-.hero-box p{
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Cormorant Garamond", serif;
-    color: var(--white);
+
+.Couns1 .fa-long-arrow-right {
+    color: white;
 }
-.box-icon-img{
+
+.Couns2 .fa-long-arrow-right {
+    color: white;
+}
+
+.Couns2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid white;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    font-family: "Lato", sans-serif;
+    width: 302px;
 }
-.icon-hero i{
-    color: var(--white);
+
+.Couns1:hover,
+.Couns2:hover {
+    color: white;
 }
-.icon-plas{
+
+a {
+    text-decoration: none;
+}
+
+.hero-join {
+    width: 270px;
+    padding: 13px;
+    background-color: rgba(255, 255, 255, 0.281);
+    border-radius: 20px;
+}
+
+.icon-plas {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-image: linear-gradient(45deg, #AE7930 0%, #FEF189 50%, #AE7930 100% );
+    background-image: linear-gradient(45deg, #AE7930 0%, #FEF189 50%, #AE7930 100%);
     display: flex;
     position: relative;
     -webkit-box-align: center;
     align-items: center;
     border-radius: 100%;
-    color: var(--bs-white);
+    color: black;
     -webkit-box-pack: center;
     justify-content: center;
 }
-.hero-boxx{
-    width: 320px;
-    height: 212px;
-    background-color: #00000070;
-    border-radius: 20px;
-    padding: 20px;
-    position: relative;
-    bottom: 70%;
-    margin-left: 50px;
+
+.join-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.hero-btn2 button{
-    width: 144px;
-    height: 40px;
-    border-radius: 50px;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.342);
+
+.hero-join p {
     font-size: 16px;
-    font-family: "Lato", sans-serif;
-    color: var(--white);
+    font-weight: 400;
+    color: white;
+    font-family: "Cormorant Garamond", serif;
 }
-.hero-bx-text{
+
+.hero-join p span {
+    font-family: "Lato", sans-serif;
+}
+
+.hero-col2 {
+    position: relative;
+    left: 30px;
+}
+
+.hero-col1-head {
+    font-size: 80px;
+    font-weight: 400;
+    font-family: "Cormorant Garamond", serif;
+    line-height: 88px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.col2-des-img {
+    width: 245px;
+    margin: auto;
+}
+
+.col2-des-img p {
+    width: 245px;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+}
+
+.hero-BookSchedule {
+    width: 320px;
+    padding: 18px;
+    gap: 64px;
+    background: #00000099;
+    border: 1px solid;
+    border-image-source: linear-gradient(100.42deg, rgba(255, 255, 255, 0.5) 16.09%, rgba(255, 255, 255, 0.1) 105.27%);
+    border-radius: 20px;
+    margin: auto;
+}
+
+.bookschedule-text {
     display: flex;
     justify-content: space-between;
 }
-.hero-bx-text h2{
+
+.bookschedule-text h5 {
     font-size: 32px;
+    font-weight: 400;
     font-family: "Lato", sans-serif;
-    color: var(--white);
+    text-align: left;
+    color: white;
+    line-height: 40px;
 }
-.view{
+
+.view {
     font-size: 16px;
     font-family: "Lato", sans-serif;
-    color: var(--light-brown);
-    border-bottom: 1px solid var(--Brown);
+    color: #FEF189;
+    border-bottom: 1px solid #AE7930;
     height: 23px;
 }
-.Numbers{
+
+.BookSchedule-numberline {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 5px;
+    text-align: center;
+    gap: 3px;
 }
-.Numberss{
+
+.BookSchedule-numberline2 {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 5px;
-    margin-top: 5px;
-    margin-left: 25px;
+    text-align: center;
+    gap: 3px;
+    margin-left: 30px;
+    margin-top: 2px;
 }
-.hero-number .Num1{
+
+.num1 {
     width: 32px;
     height: 32px;
-    border: 1px solid var(--light-brown);
+    border: 1px solid #FEF189;
     border-radius: 50%;
     display: flex;
     position: relative;
@@ -196,35 +239,26 @@ a:hover{
     justify-content: center;
     font-size: 16px;
     font-family: "Lato", sans-serif;
-    color: var(--Black);
+    color: black;
 }
-.hero-number .Num3{
-    width: 32px;
-    height: 32px;
-    border: 1px dotted var(--light-brown);
-    border-radius: 50%;
-    display: flex;
-    position: relative;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    font-size: 16px;
-    font-family: "Lato", sans-serif;
-    color: var(--Black);
-}
-.hero-number .Num3:hover{
-    background-image: linear-gradient(45deg, #AE7930 0%, #FEF189 50%, #AE7930 100% );
+
+.num1:hover {
     border: none;
+    background: linear-gradient(135deg, #AE7930 0%, #FEF189 52.5%, #AE7930 100%);
+    color: black;
 }
-.hero-number .Num1:hover{
-   background-image: linear-gradient(45deg, #AE7930 0%, #FEF189 50%, #AE7930 100% );
-   border: none;
+
+.num3:hover {
+    border: none;
+    background: linear-gradient(135deg, #AE7930 0%, #FEF189 52.5%, #AE7930 100%);
+    color: black;
 }
-.hero-number .Num2{
+
+.num2 {
     width: 32px;
     height: 32px;
-    background-image: linear-gradient(45deg, #AE7930 0%, #FEF189 50%, #AE7930 100% );
+    border: none;
+    background: linear-gradient(135deg, #AE7930 0%, #FEF189 52.5%, #AE7930 100%);
     border-radius: 50%;
     display: flex;
     position: relative;
@@ -234,8 +268,62 @@ a:hover{
     justify-content: center;
     font-size: 16px;
     font-family: "Lato", sans-serif;
-    color: var(--Black);
+    color: black;
 }
+
+.num3 {
+    width: 32px;
+    height: 32px;
+    border: 1px dotted #FEF189;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+
+    .Couns1,
+    .Couns2 {
+        width: 100%;
+    }
+
+    .hero-join {
+        width: 100%;
+        padding: 13px;
+        text-align: left;
+    }
+
+    .hero-col2 {
+        position: relative;
+        left: 0px;
+    }
+
+    .hero-BookSchedule {
+        width: 100%;
+        padding: 18px;
+    }
+
+    .BookSchedule-numberline2 {
+        margin-left: 0px;
+    }
+
+    .hero-col1-head {
+        font-size: 50px;
+        font-weight: 400;
+        font-family: "Cormorant Garamond", serif;
+        line-height: 50px;
+        color: white;
+        letter-spacing: 3px;
+    }
+}
+
 /*================== clint-logo ===============*/
 .clint-logo{
     display: flex;
