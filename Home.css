@@ -436,6 +436,13 @@ a {
     font-family: "Lato", sans-serif;
     color: var(--Black);
 }
+.service-heading{
+    font-family: Cormorant Garamond;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: left;
+}
 /*============= issues Section ==============*/
 .issues-item img{
     position: absolute;
