@@ -611,6 +611,12 @@ a {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.testimonial-p{
+    font-size: 54px;
+    font-weight: 400;
+    font-family: "Cormorant Garamond", serif;
+    color: var(--Black);
+}
 .card-list{
     display: flex;
     justify-content: center;
