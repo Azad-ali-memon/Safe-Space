@@ -369,6 +369,8 @@ a {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 /* .clint-logo img{
     width: 195px;
