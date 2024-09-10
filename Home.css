@@ -671,8 +671,13 @@ a {
     display: grid;
     justify-content: center;
     align-items: center;
-    text-align: center;
     width: 320px;
+}
+.testimonial-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .card-list p{
    .card-list p {
