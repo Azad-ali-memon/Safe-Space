@@ -525,6 +525,13 @@ a {
     justify-content: center;
     align-items: center;
 }
+.issues-hd{
+    font-family: Cormorant Garamond;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: center;
+}
 .issues-icon{
     width: 40px;
     height: 40px;
