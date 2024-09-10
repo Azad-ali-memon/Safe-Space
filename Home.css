@@ -606,10 +606,10 @@ a {
     color: #222222;
 }
 /*============ testimonial section ==============*/
-.swiper{
-    background-color: #3974e125;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.testimonial-bg {
+    background: #3973E10D;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .card-list{
     display: flex;
