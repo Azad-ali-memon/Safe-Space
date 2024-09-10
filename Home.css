@@ -679,15 +679,13 @@ a {
     align-items: center;
     text-align: center;
 }
-.card-list p{
-   .card-list p {
+.card-list p {
     font-family: Cormorant Garamond;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.38px;
     text-align: center;
     width: 320px;
-}
 }
 .card-list i{
     color: #FFA800;
