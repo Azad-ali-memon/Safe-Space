@@ -166,6 +166,8 @@ a {
 .col2-des-img {
     width: 245px;
     margin: auto;
+    position: relative;
+    left: 50px;
 }
 
 .col2-des-img p {
@@ -361,6 +363,12 @@ a {
         width: 100%;
         height: 40px;
         padding: 8px 32px 8px 32px;}
+    .col2-des-img {
+    width: 245px;
+    margin: auto;
+    position: relative;
+    left: 0px;
+}
 }
 
 /*================== clint-logo ===============*/
