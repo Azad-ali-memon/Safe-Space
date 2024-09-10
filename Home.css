@@ -615,24 +615,27 @@ a {
     align-items: center;
     gap: 44px;
 }
-.assessment-number{
-    width: 120px;
-    height: 70px;
-    background-image: linear-gradient(45deg, #AE7930 0%, #FEF189 50%, #AE7930 100% );
+.assessment-number {
+    width: 100px;
+    height: 80px;
+    padding: 20px 24px 20px 24px;
+    border-radius: 50%;
     display: flex;
     position: relative;
     -webkit-box-align: center;
     align-items: center;
     border-radius: 100%;
-    color: #0000;
+    color: black;
     -webkit-box-pack: center;
     justify-content: center;
+    background: linear-gradient(135deg, #AE7930 0%, #FEF189 52.5%, #AE7930 100%);
 }
-.assessment-number a{
+
+.assessment-number a {
     font-size: 32px;
     font-weight: 600;
     font-family: "Lato", sans-serif;
-    color: var(--white);
+    color: var(--Black);
 }
 .assessment-text h3{
     font-size: 32px;
