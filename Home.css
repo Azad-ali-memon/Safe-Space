@@ -427,24 +427,16 @@ a {
     font-family: "Lato", sans-serif;
     width: 100%;
 }
-.about-box1{
+.about-box1 {
     display: grid;
     width: 100%;
     padding: 20px;
-    background: linear-gradient(135deg, #AE7930 0%, #FEF189 52.5%, #AE7930 100%);
+    box-shadow: 2px 2px 2px 5px rgba(167, 166, 166, 0.034);
     border-radius: 20px;
     margin-bottom: 20px;
 }
-.about-box2{
-    display: grid;
-    width: 100%;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.281);
-    box-shadow: 1px 1px 1px 3px gainsboro;
-    border-radius: 20px;
-    margin-bottom: 20px;
-}
-.about-box2:hover{
+
+.about-box1:hover {
     box-shadow: none;
     background: linear-gradient(135deg, #AE7930 0%, #FEF189 52.5%, #AE7930 100%);
 }
